@@ -1,5 +1,3 @@
-import { bindActionCreators } from "redux";
-import { sellLaptop } from "../actions/actions";
 import { SELL_LAPTOP } from "../types/types";
 
 const initialstate = {
@@ -11,7 +9,7 @@ const laptopReducer = (state=initialstate, action) => {
         case SELL_LAPTOP:
             return {
                 ...state,
-                numberOfLaptops: state.numberOfLaptops - action.payload,
+                numberOfLaptops: state.numberOfLaptops - action.payload
             }
     default:
         return state;

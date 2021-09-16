@@ -6,9 +6,10 @@ export const sellLaptop = (number=1) => {
         payload: number,
     };
 };
-export const sellWatch = () => {
+export const sellWatch = (number=5) => {
     return {
         type:SELL_WATCH,
+        payload : number
     };
 };
 export const sellPhone = (number=1) => {
@@ -17,8 +18,9 @@ export const sellPhone = (number=1) => {
         payload: number,
     };
 };
-export const sellComp = () => {
+export const sellComp = (number=1) => {
     return {
         type:SELL_COMP,
+        payload: number,
     };
 };
