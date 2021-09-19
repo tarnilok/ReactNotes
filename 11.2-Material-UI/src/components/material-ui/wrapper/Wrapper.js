@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "@material-ui/core/Container/Container"
+import Container from "@material-ui/core/Container/Container";
 
 
 const Wrapper = ({children}) => {
